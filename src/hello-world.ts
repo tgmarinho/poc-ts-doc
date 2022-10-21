@@ -4,7 +4,7 @@ import { MyObj } from "./types/index";
  * Hi Core Function
  * 
  * @example
- * Here's a simple example:
+ * Here is a simple example:
  * ```
    console.log(sayHello("Thiago");
  * ```
@@ -38,7 +38,7 @@ export function sayHello(name: string) {
  * *.d.ts file.
  *
  * @example
- * Here's a simple example:
+ * Here is a simple example:
 
  * ```
    console.log(sayGoodbye({ name: "John", age: 30 }));
@@ -75,7 +75,7 @@ export function whatTimeIsIt(obj: MyObj) {
   const now = Date.now();
   const time = new Intl.DateTimeFormat("en-US", {
     timeStyle: "short",
-  }).format(now);
+  } as any).format(now);
   console.log("Hey" + obj.name + ", it's " + time);
   console.log();
 
