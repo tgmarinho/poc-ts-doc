@@ -2,6 +2,11 @@
 
 > Sample project with tsup and tsc, generates the documentation TSDOC standard and typedoc tool
 
+
+### See the Doc online
+
+🏄🏻‍♀️ [https://hidocs.netlify.app/](https://hidocs.netlify.app/)
+
 ### Markdown
 ![](./screenshots/1.png)
 

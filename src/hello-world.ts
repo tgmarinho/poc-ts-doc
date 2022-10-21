@@ -72,6 +72,12 @@ export function sayGoodbye(obj: MyObj) {
  * @returns number - returns the current time in timestamp
  */
 export function whatTimeIsIt(obj: MyObj) {
-  console.log("Hey" + obj.name + ", it's " + new Date().getTime());
-  return Date.now();
+  const now = Date.now();
+  const time = new Intl.DateTimeFormat("en-US", {
+    timeStyle: "short",
+  }).format(now);
+  console.log("Hey" + obj.name + ", it's " + time);
+  console.log();
+
+  return now;
 }
