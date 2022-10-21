@@ -1,0 +1,13 @@
+{
+  // Comments are supported, like tsconfig.json
+   "$schema": "https://typedoc.org/schema.json",
+   "entryPoints": ["./src"],
+  // "plugin": ["typedoc-plugin-markdown"], // <-- Add this line with you wants markdown output
+  "plugin": [],
+  // "out": "doc-with-mkd",
+  "out": "doc-with-html",
+  "skipErrorChecking": true,
+  "compilerOptions": {
+    "strict": false
+  }
+}

@@ -9,12 +9,15 @@
   ],
   "scripts": {
     "build": "tsc",
-    "build2": "tsup"
+    "build2": "tsup",
+    "doc": "npx typedoc"
   },
   "dependencies": {
     "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "tsup": "^6.3.0"
+    "tsup": "^6.3.0",
+    "typedoc": "^0.23.17",
+    "typedoc-plugin-markdown": "^3.13.6"
   }
 }
