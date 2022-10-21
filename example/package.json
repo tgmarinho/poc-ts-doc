@@ -12,7 +12,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "hidocs": "^1.0.0",
+    "hidocs": "^1.0.1",
     "typescript": "^4.8.4"
   }
 }
