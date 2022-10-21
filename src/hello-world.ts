@@ -69,7 +69,7 @@ export function sayGoodbye(obj: MyObj) {
       gender?: string;
     }
  * ```
- * @returns number
+ * @returns number - returns the current time in timestamp
  */
 export function whatTimeIsIt(obj: MyObj) {
   console.log("Hey" + obj.name + ", it's " + new Date().getTime());
