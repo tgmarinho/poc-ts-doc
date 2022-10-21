@@ -1,6 +1,6 @@
 {
   "name": "hidocs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
   "main": "build-with-tsc/index.js",
   "types": "build-with-tsc/index.d.ts",
