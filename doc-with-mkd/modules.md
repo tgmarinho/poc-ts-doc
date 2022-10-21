@@ -1,13 +1,22 @@
-[hwrld](README.md) / Exports
+[hidocs](README.md) / Exports
 
-# hwrld
+# hidocs
 
 ## Table of contents
+
+### Classes
+
+- [Book](classes/Book.md)
+
+### Interfaces
+
+- [MyObj](interfaces/MyObj.md)
 
 ### Functions
 
 - [sayGoodbye](modules.md#saygoodbye)
 - [sayHello](modules.md#sayhello)
+- [whatTimeIsIt](modules.md#whattimeisit)
 
 ## Functions
 
@@ -30,7 +39,7 @@ additional details.
 
 **`Example`**
 
-Here's a simple example:
+Here is a simple example:
 
 ```
   console.log(sayGoodbye({ name: "John", age: 30 }));
@@ -40,7 +49,7 @@ Here's a simple example:
 
 | Name | Type |
 | :------ | :------ |
-| `obj` | `MyObj` |
+| `obj` | [`MyObj`](interfaces/MyObj.md) |
 
 #### Returns
 
@@ -48,7 +57,7 @@ Here's a simple example:
 
 #### Defined in
 
-[hello-world.ts:48](https://github.com/tgmarinho/poc-ts-doc/blob/83260dc/src/hello-world.ts#L48)
+[hello-world.ts:48](https://github.com/tgmarinho/poc-ts-doc/blob/739975f/src/hello-world.ts#L48)
 
 ___
 
@@ -60,7 +69,7 @@ Hi Core Function
 
 **`Example`**
 
-Here's a simple example:
+Here is a simple example:
 ```
   console.log(sayHello("Thiago");
 ```
@@ -77,4 +86,50 @@ Here's a simple example:
 
 #### Defined in
 
-[hello-world.ts:15](https://github.com/tgmarinho/poc-ts-doc/blob/83260dc/src/hello-world.ts#L15)
+[hello-world.ts:15](https://github.com/tgmarinho/poc-ts-doc/blob/739975f/src/hello-world.ts#L15)
+
+___
+
+### whatTimeIsIt
+
+▸ **whatTimeIsIt**(`obj`): `number`
+
+whatTimeIsIt function
+
+**`Example`**
+
+```
+whatTimeIsIt({ name: "John", age: 30 });
+// prints "Hey John, it's 10:00"
+```
+
+**`See`**
+
+[JSDoc Supported Types](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)
+
+**`Example`**
+
+interface
+```ts
+   interface MyObj {
+     name: string;
+     age: number;
+     gender?: string;
+   }
+```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | [`MyObj`](interfaces/MyObj.md) |
+
+#### Returns
+
+`number`
+
+number - returns the current time in timestamp
+
+#### Defined in
+
+[hello-world.ts:74](https://github.com/tgmarinho/poc-ts-doc/blob/739975f/src/hello-world.ts#L74)
