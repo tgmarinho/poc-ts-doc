@@ -1,0 +1,3 @@
+node_modules/
+build-with-tsc
+build-with-tsup

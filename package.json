@@ -1,0 +1,20 @@
+{
+  "name": "hwrld",
+  "version": "1.0.0",
+  "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
+  "main": "build-with-tsc/index.js",
+  "types": "build-with-tsc/index.d.ts",
+  "files": [
+    "/build-with-tsc"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build2": "tsup"
+  },
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "tsup": "^6.3.0"
+  }
+}

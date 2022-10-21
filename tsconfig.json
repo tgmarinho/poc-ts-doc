@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "declaration": true,
+    "outDir": "./build-with-tsc"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
