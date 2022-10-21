@@ -1,6 +1,6 @@
 {
   "name": "hidocs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
   "main": "build-with-tsc/index.js",
   "types": "build-with-tsc/index.d.ts",
@@ -20,5 +20,19 @@
     "tsup": "6.3.0",
     "typedoc": "0.23.17",
     "typedoc-plugin-markdown": "3.13.6"
-  }
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgmarinho/poc-ts-doc.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Thiago Marinho <tgmarinho@gmail.com> (https://tgmarinho.com)",
+  "bugs": {
+    "url": "https://github.com/tgmarinho/poc-ts-doc.git/issues"
+  },
+  "homepage": "https://github.com/tgmarinho/poc-ts-doc.git#readme"
 }
