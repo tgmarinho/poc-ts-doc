@@ -11,6 +11,33 @@
 ![](./screenshots/2.png)
 
 
+### Install
+
+```
+npm i hidocs
+```
+
+### Usage
+
+```
+import {sayGoodbye, sayHello} from 'hidocs'l
+
+console.log(sayHello("Thiago");
+
+console.log(sayGoodbye({ name: "John", age: 30 }));
+
+```
+
+### Run Example
+
+```
+git clone git@github.com:tgmarinho/poc-ts-doc.git
+cd poc-ts-doc/example
+npm i
+```
+
+You can code `example/src/index.ts` file.
+
 ### Refs
 
 * [https://tsdoc.org/](https://tsdoc.org/)

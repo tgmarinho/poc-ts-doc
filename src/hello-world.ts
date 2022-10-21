@@ -48,3 +48,30 @@ export function sayHello(name: string) {
 export function sayGoodbye(obj: MyObj) {
   console.log("goodbye" + obj.name);
 }
+
+/**
+ * whatTimeIsIt function
+ *
+ * @example
+ * ```
+ * whatTimeIsIt({ name: "John", age: 30 });
+ * // prints "Hey John, it's 10:00"
+ * ```
+ *
+ * @template {MyObj} - optional callbacks for each steop during the transaction {@link MyObj | `MyObj`}
+ * @see {@link https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html | JSDoc Supported Types}
+ * @example
+ * interface
+ * ```ts
+    interface MyObj {
+      name: string;
+      age: number;
+      gender?: string;
+    }
+ * ```
+ * @returns number
+ */
+export function whatTimeIsIt(obj: MyObj) {
+  console.log("Hey" + obj.name + ", it's " + new Date().getTime());
+  return Date.now();
+}
