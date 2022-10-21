@@ -9,7 +9,7 @@
 
 
 ### Code
-[codesandbox.io)(https://codesandbox.io/embed/suspicious-sanne-ppii5i?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+[codesandbox.io](https://codesandbox.io/embed/suspicious-sanne-ppii5i?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
 
 ### Markdown
 ![](./screenshots/1.png)
