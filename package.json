@@ -19,7 +19,7 @@
   "devDependencies": {
     "tsup": "6.3.0",
     "typedoc": "0.23.18",
-    "typedoc-plugin-markdown": "3.13.6"
+    "typedoc-plugin-markdown": "3.17.1"
   },
    "repository": {
     "type": "git",
