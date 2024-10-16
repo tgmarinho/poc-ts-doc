@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "tsup": "6.3.0",
-    "typedoc": "0.23.18",
+    "typedoc": "0.26.10",
     "typedoc-plugin-markdown": "3.13.6"
   },
    "repository": {
